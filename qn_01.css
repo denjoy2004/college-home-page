@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 40px;
+    width: 30px;
+    height: 100px;
+}
+.clg_name{
+    height: 100px;
+    width: 70px;
+    padding-left: 40%;
+    padding-top: 10px;
+    display: block;
+}
+.middle{
+    width: 100%;
+    height: 550px;
+    display: flex; 
+    position: relative;
+}
+.clg_image{
+    width: 80%;
+    height: 400px; 
+    display: block;
+}
+.about{
+    width: 80%;
+    height: 200px; 
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+.departments{
+    width: 20%;
+    height: 550px;
+    background-color: rgb(236, 230, 230);
+    font-size: 18px;
+    font-family: cursive;   
+}
+.departments ul,h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    padding-top: 3px;
+    padding-left: 600px;
+    font-size: 20px;
+    color: #c58a8a;
+    position: relative;
+}
